@@ -10,15 +10,21 @@ so First things First , we gonna introduce some definitions so we can be sure th
  
 # <strong> what is a Container image : </strong><br>
 When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container’s filesystem, it must contain everything needed to run an application - all dependencies, configurations, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.<br>
-<italic> if you don't really understand  the definition don't worry u  gonna understand it later in this article because this is the point of this research understanding the fact of an image  </italic>
+>if you don't really understand  the definition don't worry u  gonna understand it later in this article because this is the point of this research understanding the fact of an image  
 
 # <strong> what is a blob : </strong><br>
 The term "blob" is short for "Binary Large OBject," which is a common term in computer science that is a type for a large piece of data that is stored in a database or other data structure. 
 
 # <strong> what is unstructered and structered  data : </strong><br>  
-Structured data is highly specific and is stored in a predefined format like Number , varchar() , where unstructured data is a conglomeration of many varied types of data that are stored in their native formats 
+Structured data is highly specific and is stored in a predefined format like Number , varchar() , where unstructured data is a conglomeration of many varied types of data that are stored in their native formats. 
+ 
+ 
+## Let's go to the terminal to see what happen 
 
+i utilize podman instead of docker but is the same logique <br>
+ 
 now if we want to download an image : <br> 
+
 
               podman pull <path_of_image> 
              
@@ -30,32 +36,36 @@ as we see that the container has been build on tree layer each blob is a layer
 
 because if we do 
 
-              podman inspect <path_of_image> 
+               podman inspect <path_of_image> 
               
 
  we gonna see : <br> 
  
  ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226175040-d8f966bb-ccc6-4176-8071-b2e4df11e8ba.jpeg)<br>
  
- so this containers is build on three layers and every layer is called a blob so this is the point of our research why the called a blob  <br> 
+ so this containers is build on three layers and every layer is called a blob so why they call a layer a blob  <br> 
  
  ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226174414-57978a4c-b28c-41f3-8a64-a56936458f24.jpeg) 
  <br> 
  
- as we see that every layer is in base64 format  <br>
+ as we see that every layer is in  [base64](https://en.wikipedia.org/wiki/Base64) format  <br>
+ 
+ 
  so now we are certain that these executables files  are stored as blob type 
  
- so i thing they called the executable code  as an image because is stored in the database as they store true images (like Profile_image ) in the database 
+ executable files can be dependencies, scripts, configurations, ...  
+ 
+ so i thing they called the executable files  as an image because is stored in the database as they store true images (like Profile_image ) in the database 
  
  and they store data in blob cells because of their (blobs) flexibility and ability to handle large volumes of data. 
  
  Note :   <br> 
- Containers contains all necessary things ( dependencies , code , Apis .... ) to make the project run seccusfully so this is why containers are heavy 
+ Containers contains all necessary things ( dependencies , code , Apis .... ) to make the project run seccussfully so this is why containers are heavy 
  
 <br>
  
  
-<strong>some Common examples of files stored in a BLOB data type field include:<strong>
+<!-- <strong>some Common examples of files stored in a BLOB data type field include:<strong>
 
 * Images (JPG, JPEG, PNG, GIF, HEIC, WEBP, raw binary data)
 * Videos (MP4, AVI, MOV, MKV)
@@ -64,12 +74,13 @@ because if we do
 * Archives (ZIP, RAR)
 * Executable files (EXE, MSI)
 * Backups (SQL, BAK)
-
+-->
 Summary : 
   * that an image is a set of all dependecies , script , configuration ....
-  * all dependecies , scripts , configuration ... called Container fileSystem 
-  * they call container image because they store container filesystem as they store real images with blob type 
-  * container image has a blob type because they are heavy and for other reasons as we see before 
+  * all dependecies , scripts , configuration ... stored in a container  called Container fileSystem 
+  * they call container image because they store container filesystem as they store real images (Profile_Picture) with blob type 
+  * container is build in tree layers each layer stored with a blob type this is why they call each layer a blob when we pull it from the database (image regestry)
+  * container layer has a blob type because they are heavy and for other reasons as we see before 
   
  
  
