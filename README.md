@@ -1,10 +1,11 @@
-# fact_of_image
+# fact_of_Container_image
 
 <strong>this a research about the fact of a Container image <strong> <br>
 
 Objectifs : 
 * what is an image in the fact 
 * is image just a executable code so what is the relationship between a code and blob (Binary Large OBject) that is a type of unstructed data 
+* why they call it image 
 
 so First things First , we gonna introduce some definitions so we can be sure that we all in the same page 
  
