@@ -38,10 +38,19 @@ because if we do
  <br> 
  
  as we see that every layer is in base64 format  <br>
+ so now we are certain that these executables files  are stored as blob type 
+ 
+ so i thing they called the executable code  as an image because is stored in the database as they store true images (like Profile_image ) in the database 
+ 
+ and they store data in blob cells because of their (blobs) flexibility and ability to handle large volumes of data. 
+ 
+ Note :   <br> 
+ Containers contains all necessary things ( dependencies , code , Apis .... ) to make the project run seccusfully so this is why containers are heavy 
+ 
+<br>
  
  
- 
-<strong>Common examples of files stored in a BLOB data type field include:<strong>
+<strong>some Common examples of files stored in a BLOB data type field include:<strong>
 
 * Images (JPG, JPEG, PNG, GIF, HEIC, WEBP, raw binary data)
 * Videos (MP4, AVI, MOV, MKV)
