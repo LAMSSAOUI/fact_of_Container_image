@@ -1,6 +1,7 @@
 # fact_of_Container_image
 
-<strong>this a research about the fact of a Container image <strong> <br>
+
+
 
 Objectifs : 
 * what is an image in the fact 
