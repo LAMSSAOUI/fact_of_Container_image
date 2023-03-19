@@ -28,4 +28,7 @@ because if we do
               podman inspect <path_of_image> 
               
 
+ we gonna see : 
+ ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226174414-57978a4c-b28c-41f3-8a64-a56936458f24.jpeg)
+so this containers is build on three layers and every layer is called a blob so this is the point of our research why the called a blob 
  
