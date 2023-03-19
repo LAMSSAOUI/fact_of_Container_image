@@ -28,7 +28,27 @@ because if we do
               podman inspect <path_of_image> 
               
 
- we gonna see : 
- ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226174414-57978a4c-b28c-41f3-8a64-a56936458f24.jpeg)
-so this containers is build on three layers and every layer is called a blob so this is the point of our research why the called a blob 
+ we gonna see : <br> 
+ 
+ ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226175040-d8f966bb-ccc6-4176-8071-b2e4df11e8ba.jpeg)<br>
+ 
+ so this containers is build on three layers and every layer is called a blob so this is the point of our research why the called a blob  <br> 
+ 
+ ![WhatsApp Image 2023-03-19 at 13 06 54](https://user-images.githubusercontent.com/100031609/226174414-57978a4c-b28c-41f3-8a64-a56936458f24.jpeg) 
+ <br> 
+ 
+ as we see that every layer is in base64 format  <br>
+ 
+ 
+ 
+<strong>Common examples of files stored in a BLOB data type field include:<strong>
+
+* Images (JPG, JPEG, PNG, GIF, HEIC, WEBP, raw binary data)
+* Videos (MP4, AVI, MOV, MKV)
+* Audio files (MP3, WAV, AAC)
+* Documents (PDF, TXT, CSV, DOCX, XLSX)
+* Archives (ZIP, RAR)
+* Executable files (EXE, MSI)
+* Backups (SQL, BAK)
+ 
  
