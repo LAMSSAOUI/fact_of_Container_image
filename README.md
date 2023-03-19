@@ -1,17 +1,22 @@
 # fact_of_image
 
-<strong>this a research about the fact of an image <strong> <br>
+<strong>this a research about the fact of a Container image <strong> <br>
 
 Objectifs : 
 * what is an image in the fact 
-* is image just a executable code so what is the relationship between a code and blob (Binary Large OBject) that is a variable of images  
+* is image just a executable code so what is the relationship between a code and blob (Binary Large OBject) that is a type of unstructed data 
 
-so First things First , we gonna introduce some definitions so we can be sure that we all in the same pages 
+so First things First , we gonna introduce some definitions so we can be sure that we all in the same page 
  
-![Screenshot (91)](https://user-images.githubusercontent.com/100031609/226125425-2d320df7-d503-44d2-9941-7db69bb4ca0d.png)
+# <strong> what is a Container image : </strong><br>
+When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container’s filesystem, it must contain everything needed to run an application - all dependencies, configurations, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.<br>
+<italic> if you don't really understand  the definition don't worry u  gonna understand it later in this article because this is the point of this research understanding the fact of an image  </italic>
 
-so now what is a blob : <br>
-The term "blob" is short for "binary large object," which is a common term in computer science for a large piece of data that is stored in a database or other data structure. 
+# <strong> what is a blob : </strong><br>
+The term "blob" is short for "Binary Large OBject," which is a common term in computer science that is a type for a large piece of data that is stored in a database or other data structure. 
+
+# <strong> what is unstructered and structered  data : </strong><br>  
+Structured data is highly specific and is stored in a predefined format like Number , varchar() , where unstructured data is a conglomeration of many varied types of data that are stored in their native formats 
 
 now if we want to download an image : <br> 
 
@@ -59,5 +64,12 @@ because if we do
 * Archives (ZIP, RAR)
 * Executable files (EXE, MSI)
 * Backups (SQL, BAK)
+
+Summary : 
+  * that an image is a set of all dependecies , script , configuration ....
+  * all dependecies , scripts , configuration ... called Container fileSystem 
+  * they call container image because they store container filesystem as they store real images with blob type 
+  * container image has a blob type because they are heavy and for other reasons as we see before 
+  
  
  
