@@ -52,16 +52,18 @@ because if we do
  as we see that every layer is in  [base64](https://en.wikipedia.org/wiki/Base64) format  <br>
  
  
- so now we are certain that these executables files  are stored as blob type 
+ so now we are certain that those layers are stored as blob type
  
- executable files can be dependencies, scripts, configurations, ...  
+ this is  why when we want to download the image we see that those layers named blobs  to tell as that those layers are stored with a blob type 
  
- so i thing they called the executable files  as an image because is stored in the database as they store true images (like Profile_image ) in the database 
+ layers contains dependencies , configurations, scripts ... and each modification of the image commited make a new layer 
  
- and they store data in blob cells because of their (blobs) flexibility and ability to handle large volumes of data. 
+ so i thing they called this groupe of layers  an image because is stored in the database as they store true images (like Profile_image ) 
+ 
+ and they store data in blob cells because of their  flexibility and ability to handle large volumes of data. 
  
  Note :   <br> 
- Containers contains all necessary things ( dependencies , code , Apis .... ) to make the project run seccussfully so this is why containers are heavy 
+ Containers contains all necessary things ( dependencies , code , Apis .... ) in layers to make the project run seccussfully so this is why layers are heavy 
  
 <br>
  
@@ -77,11 +79,10 @@ because if we do
 * Backups (SQL, BAK)
 -->
 Summary : 
-  * that an image is a set of all dependecies , script , configuration ....
-  * all dependecies , scripts , configuration ... stored in a container  called Container fileSystem 
-  * they call container image because they store container filesystem as they store real images (Profile_Picture) with blob type 
+  * an image is a groupe of layers that contain dependencies ,  script , configuration .... in an organized way 
   * container is build in tree layers each layer stored with a blob type this is why they call each layer a blob when we pull it from the database (image regestry)
   * container layer has a blob type because they are heavy and for other reasons as we see before 
+  * they call image because in the fact is a group of layers that is in the fact group of blobs and a group of blobs is a blob (TY5UN(blob) + IOK4(blob) = FRGO(blob))    the result is a blob so logicaly an image 
   
  
  
