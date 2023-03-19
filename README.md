@@ -58,7 +58,6 @@ because if we do
  
  layers contains dependencies , configurations, scripts ... and each modification of the image commited make a new layer 
  
- so i thing they called this groupe of layers  an image because is stored in the database as they store true images (like Profile_image ) 
  
  and they store data in blob cells because of their  flexibility and ability to handle large volumes of data. 
  
