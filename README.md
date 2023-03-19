@@ -33,7 +33,7 @@ so we gonna have this result :
 
 ![WhatsApp Image 2023-03-19 at 12 46 36](https://user-images.githubusercontent.com/100031609/226173393-eccc5191-4fc9-4591-8594-266c11d149db.jpeg)
 
-as we see that the container has been build on tree layers each blob is a layer 
+as we see that the container has been build on three layers each blob is a layer 
 
 because if we do 
 
