@@ -7,7 +7,7 @@ Objectifs :
 * is image just a executable code so what is the relationship between a code and blob (Binary Large OBject) that is a type of unstructed data 
 * why they call it image 
 
-so First things First , we gonna introduce some definitions so we can be sure that we all in the same page 
+so First things First , we gonna introduce some definitions so we can be sure that we are all in the same page 
  
 # <strong> what is a Container image : </strong><br>
 When running a container, it uses an isolated filesystem. This custom filesystem is provided by a container image. Since the image contains the container’s filesystem, it must contain everything needed to run an application - all dependencies, configurations, scripts, binaries, etc. The image also contains other configuration for the container, such as environment variables, a default command to run, and other metadata.<br>
