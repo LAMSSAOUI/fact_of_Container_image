@@ -79,9 +79,9 @@ because if we do
 * Backups (SQL, BAK)
 -->
 Summary : 
-  * an image is a groupe of layers that contain dependencies ,  script , configuration .... in an organized way 
-  * container is build in tree layers each layer stored with a blob type this is why they call each layer a blob when we pull it from the database (image regestry)
-  * container layer has a blob type because they are heavy and for other reasons as we see before 
+  * a Container image is a groupe of layers that contain dependencies ,  script , configuration .... in an organized way 
+  * image is build in three layers each layer stored with a blob type this is why they call each layer a blob when we pull it from the database (image regestry)
+  * Image layer has a blob type because they are heavy and for other reasons as we see before 
   * they call image because in the fact is a group of layers that is in the fact group of blobs and a group of blobs is a blob (TY5UN(blob) + IOK4(blob) = FRGO(blob))    the result is a blob so logicaly an image 
   
  
